@@ -32,5 +32,6 @@ ADD startup.sh /
 ADD supervisord.conf /etc/supervisor/conf.d/
 
 EXPOSE 6080
+EXPOSE 5900
 WORKDIR /root
 ENTRYPOINT ["/startup.sh"]
